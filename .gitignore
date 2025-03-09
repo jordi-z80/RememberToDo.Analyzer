@@ -1,0 +1,79 @@
+
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
+
+
+
+
+#Visual Studio files
+*.pidb
+*.userprefs
+*.[Oo]bj
+*.exe
+*.dll
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
+*.lib
+*.zip
+*.mgcontent
+*.rar
+*.sbr
+*.sdf
+*.odt
+*.xnb
+*.pdf
+*.tpr
+*.psess
+*.vspx
+*.cachefile
+PerfLogs/*
+.vs/
+ipch/
+obj/
+packages/
+[Bb]in/
+[Dd]ebug/
+[Rr]elease/
+Ankh.NoLoad
+PerformanceLogs/*
+AppPackages/*
+artwork*/
+
+#Tooling
+_ReSharper*/
+*.resharper
+[Tt]est[Rr]esult*
+
+#Project files
+[Bb]uild/
+
+#Subversion files
+.svn
+
+# Office Temp Files
+~$*
+
+#monodroid private beta
+monodroid*.msi
+
+#Unix temporary files
+*~
+
+.hg/*
+.fg/*
+management/*

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package>
+	<metadata>
+		<id>RememberToDo.Analyzer</id>
+		<version>1.0.6</version>
+		<authors>jordi-z80</authors>
+		<owners>jordi-z80</owners>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<license type="expression">MIT</license>
+		<projectUrl>https://github.com/jordi-z80/RememberToDo.Analyzer</projectUrl>
+		<!--		<icon>icon.png</icon> -->
+		<description>Allows you to use a [RememberTo("Message")] Attribute to get a warning on compile time.</description>
+		<tags>ToDo Helper</tags>
+		<readme>README.md</readme>
+		
+		<dependencies>
+			<group targetFramework=".NETStandard2.0">
+			</group>
+		</dependencies>
+	</metadata>
+	<files>
+		<!-- Add the file for analyzers -->
+		<file src="bin\Release\netstandard2.0\RememberToDo.Analyzer.dll" target="analyzers/dotnet/cs/RememberToDo.Analyzer.dll" />
+		<!-- Add it too to the real code (to get access to the attribute) -->
+		<file src="bin\Release\netstandard2.0\RememberToDo.Analyzer.dll" target="lib/netstandard2.0/RememberToDo.Analyzer.dll" />
+		
+		<!--		<file src="icon.png" target="icon.png" /> -->
+		<file src="README.md" target="README.md" />
+	</files>
+</package>
+
